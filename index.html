@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Pod request access landing page</title>
+</head>
+
+<body>
+  <section class="container">
+    <img class="logo" src="./assets/desktop/logo.svg" alt="Pod Logo">
+    <div class="image-container">
+      <picture>
+        <source media="(min-width: 1024px)" srcset="./assets/desktop/image-host.jpg">
+        <source media="(min-width: 767px)" srcset="./assets/tablet/image-host.jpg">
+        <img class="image-host" src="./assets/mobile/image-host.jpg" alt="Image Host">
+      </picture>
+    </div>
+    <div class="inner-container">
+      <h1 class="text-1 headline"><span class="text-1--green">Publish your podcasts</span><br>everywhere.</h1>
+      <p class="text-2 content">Upload your audio to Pod with a single click. We’ll then distribute your podcast to
+        Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+      <div class="form-container">
+        <div class="email-container">
+          <input id="email" autocomplete="email" class="email" type="email" placeholder="Email address">
+          <button class="button text-3">Request access</button>
+        </div>
+        <p class="error-message hidden"></p>
+      </div>
+      <div class="social-links">
+        <a href="https://spotify.com" target="_blank"><img src="./assets/desktop/spotify.svg" alt="Spotify"></a>
+        <a href="https://apple.com" target="_blank"><img src="./assets/desktop/apple-podcast.svg"
+            alt="Apple Podcasts"></a>
+        <a href="https://google.com" target="_blank"><img src="./assets/desktop/google-podcasts.svg"
+            alt="Google Podcasts"></a>
+        <a href="https://pocketcasts.com" target="_blank"><img src="./assets/desktop/pocket-casts.svg"
+            alt="Pocket Casts"></a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
