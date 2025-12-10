@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Link](https://github.com/rickMcGavin/Pod-request-access-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Netlify Link](https://glittery-bubblegum-d30a37.netlify.app/)
 
 ## My process
 
